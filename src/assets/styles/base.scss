@@ -1,0 +1,68 @@
+//@use "variables";
+
+@forward "variables";
+@forward "mixins";
+@import 'normalize.css';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+p, ul, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.custom-container {
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main-box {
+  background-color: #ffffff;
+  padding: 52px 40px;
+  border-radius: 30px;
+}
+
+@media (min-width: 576px) {
+  .custom-container {
+    max-width: 540px;
+  }
+
+  .main-box {
+    padding: 39px 32px;
+  }
+}
+
+@media (min-width: 768px) {
+  .custom-container {
+    max-width: 720px;
+  }
+
+  .main-box {
+    padding: 39px 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  .custom-container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .custom-container {
+    max-width: 1140px;
+  }
+}
+
+.color-ring {
+  color: red;
+}

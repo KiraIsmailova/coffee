@@ -1,0 +1,30 @@
+<template>
+  <div :class="layoutClass">
+    <customHeader />
+    <main>
+      <slot></slot>
+    </main>
+  </div>
+</template>
+<script setup lang="ts">
+  import customHeader from '@/components/custom-header/custom-header.vue';
+  import { computed } from 'vue';
+  import { useRoute } from 'vue-router';
+
+  const route = useRoute();
+
+  const isGeneralBack = computed(() => route.meta.generalBackground === true);
+
+  const layoutClass = computed(() => ({
+    'main': isGeneralBack.value
+  }));
+</script>
+<style lang="scss">
+  .main {
+    background-image: url('@/assets/images/bg-image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+  }
+</style>

@@ -1,0 +1,35 @@
+@use "@/assets/styles/variables";
+@use "@/assets/styles/mixins";
+
+.custom-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  &__list {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+  }
+
+  &__li {
+    list-style-type: none;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: variables.$main-white;
+    border-bottom: 1px solid transparent;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0;
+
+    &:hover {
+      border-bottom: 1px solid #ffffff;
+    }
+  }
+}

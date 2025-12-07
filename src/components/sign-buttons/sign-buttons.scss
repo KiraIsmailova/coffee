@@ -1,0 +1,36 @@
+@use "@/assets/styles/variables";
+@use "@/assets/styles/mixins";
+
+.sign-buttons {
+    &__sign-list {
+    display: flex;
+    gap: 35px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+
+  &__sign-in, &__sign-up {
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0;
+    cursor: pointer;
+  }
+
+  &__sign-up {
+    background-color: #F9C06A;
+    border-radius: 30px;
+    padding: 14px 27px;
+
+    .sign-buttons__sign-link {
+      text-decoration: none;
+    }
+  }
+
+  &__sign-link {
+    color: variables.$main-white;
+  }
+}

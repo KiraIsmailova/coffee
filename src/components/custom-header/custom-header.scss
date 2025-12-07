@@ -1,0 +1,11 @@
+@use "@/assets/styles/variables";
+@use "@/assets/styles/mixins";
+
+.header {
+  padding: 20px 0;
+
+  &__inner {
+    display: grid;
+    grid-template-columns: 1fr 2fr 0.7fr;
+  }
+}

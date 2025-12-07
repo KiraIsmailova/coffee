@@ -1,0 +1,61 @@
+@use "variables";
+
+@mixin vp-360 {
+  @media all and (min-width: variables.$vp-360) {
+    @content;
+  }
+}
+
+@mixin vp-428 {
+  @media all and (min-width: variables.$vp-428) {
+    @content;
+  }
+}
+
+@mixin vp-744 {
+  @media all and (min-width: variables.$vp-744) {
+    @content;
+  }
+}
+
+@mixin vp-820 {
+  @media all and (min-width: variables.$vp-820) {
+    @content;
+  }
+}
+
+@mixin vp-915 {
+  @media all and (min-width: variables.$vp-915) {
+    @content;
+  }
+}
+
+@mixin vp-1024 {
+  @media all and (min-width: variables.$vp-1024) {
+    @content;
+  }
+}
+
+@mixin vp-1160 {
+  @media all and (min-width: variables.$vp-1160) {
+    @content;
+  }
+}
+
+@mixin vp-1200 {
+  @media all and (min-width: variables.$vp-1200) {
+    @content;
+  }
+}
+
+@mixin vp-1440 {
+  @media all and (min-width: variables.$vp-1440) {
+    @content;
+  }
+}
+
+@mixin vp-1920 {
+  @media all and (min-width: variables.$vp-1920) {
+    @content;
+  }
+}
