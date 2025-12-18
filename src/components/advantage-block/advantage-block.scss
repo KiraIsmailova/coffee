@@ -1,0 +1,44 @@
+@use "@/assets/styles/variables";
+@use "@/assets/styles/mixins";
+
+.advantage-block {
+  padding: 82px 0 0 0;
+  position: relative;
+
+  &__title {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: variables.$main-base;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+
+  &__description {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0;
+    color: variables.$main-gray;
+    margin-bottom: 30px;
+  }
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__text {
+    max-width: 585px;
+  }
+
+  &__left-wave {
+    position: absolute;
+    top: 50%;
+    left: 0;
+z-index: -1;
+  }
+}    

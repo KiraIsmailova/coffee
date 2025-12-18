@@ -5,6 +5,7 @@
       <slot></slot>
     </main>
   </div>
+  <!-- https://www.figma.com/design/cZ6624xMOYpwpAfjSp71Uf/Bean-Scene-Coffee-Landingpage--Community-?node-id=0-1&p=f&t=nw2Fg2J7YvOQ73R9-0 -->
 </template>
 <script setup lang="ts">
   import customHeader from '@/components/custom-header/custom-header.vue';

@@ -1,0 +1,26 @@
+[
+  {
+    "productCardImage": "/images/product-card-1.png",
+    "productCardTitle": "Cappuccino",
+    "productCardComposition": "Coffee 50% | Milk 50%",
+    "productCardPrice": 7.50
+  },
+  {
+    "productCardImage": "/images/product-card-2.png",
+    "productCardTitle": "Chai Latte",
+    "productCardComposition": "Coffee 50% | Milk 50%",
+    "productCardPrice": 8.50
+  },
+  {
+    "productCardImage": "/images/product-card-3.png",
+    "productCardTitle": "Macchiato",
+    "productCardComposition": "Coffee 50% | Milk 50%",
+    "productCardPrice": 9.50
+  },
+  {
+    "productCardImage": "/images/product-card-4.png",
+    "productCardTitle": "Expresso",
+    "productCardComposition": "Coffee 50% | Milk 50%",
+    "productCardPrice": 9.50
+  }
+]
