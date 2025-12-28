@@ -1,2 +1,52 @@
 @use "@/assets/styles/variables";
 @use "@/assets/styles/mixins";
+
+.product-card {
+  background: #FFF9F1;
+  border: 1px solid #F9C06A6B;
+  position: relative;
+
+  &__description {
+    padding: 18px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  &__description-title {
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #603809;
+  }
+
+  &__description-text {
+      margin: 0;
+      padding: 0;
+      font-family: "Playfair Display", serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 100%;
+      letter-spacing: 0;
+      color: #1E1E1E;
+  }
+
+  &__description-price {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #603809;
+  }
+
+  &__order {
+    position: absolute;
+    bottom: -10%;
+  }
+}

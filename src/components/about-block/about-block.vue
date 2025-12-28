@@ -1,18 +1,17 @@
 <template>
   <div class="about-block">
     <div class="custom-container">
-      <h2 class="about-block__title">Enjoy a new blend of coffee style</h2>
-      <p class="about-block__description">Explore all flavours of coffee with us. There is always a new cup worth experiencing</p>
+      <h2 class="main-title">Enjoy a new blend of coffee style</h2>
+      <p class="main-subtitle">Explore all flavours of coffee with us. There is always a new cup worth experiencing</p>
+      <div class="about-block__card-wrapper">
+        <CoffeeCard
+          v-for="(card, index) in store.product.products"
+          :key="index"
+          :product-data="card"
+        />
+      </div>
     </div>
   </div>
-  <!-- <template 
-    v-for="(card, index) in store.product"
-    :key="index"> -->
-    <!-- <CoffeeCard 
-      :product-data="card"
-    /> -->
-  <!-- </template> -->
-
 </template>
 
 <script setup lang="ts">

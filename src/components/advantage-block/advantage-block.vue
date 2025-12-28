@@ -3,8 +3,8 @@
     <div class="custom-container">
       <div class="advantage-block__inner">
         <div class="advantage-block__text">
-          <h2 class="advantage-block__title">Discover the best coffee</h2>
-          <p class="advantage-block__description">Bean Scene is a coffee shop that provides 
+          <h2  class="main-title">Discover the best coffee</h2>
+          <p class="main-subtitle">Bean Scene is a coffee shop that provides 
             you with quality coffee that helps boost your productivity and helps build your mood. 
             Having a cup of coffee is good, but having a cup of real coffee is greater. 
             There is no doubt that you will enjoy this coffee more than others you have ever tasted.</p>

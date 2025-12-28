@@ -1,0 +1,56 @@
+@use "@/assets/styles/variables";
+@use "@/assets/styles/mixins";
+
+.coffee-offer-block {
+  background-image: url('@/assets/images/coffee-offer-back.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 85px 0;
+  position: relative;
+    
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  &__title {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: variables.$main-white;
+    margin: 0; 
+    padding: 0;
+  }
+
+  &__text {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0;
+    color: variables.$main-white;
+    max-width: 410px;
+  }
+
+  &__coffee-beans {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+  }
+
+  &__paper-cup {
+    position: relative;
+    z-index: 1;
+  }
+}

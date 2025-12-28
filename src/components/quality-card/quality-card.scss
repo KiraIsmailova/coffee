@@ -1,0 +1,49 @@
+@use "@/assets/styles/variables";
+@use "@/assets/styles/mixins";
+
+.quality-card {
+  background-color: variables.$background-yellow;
+  padding: 36px 40px;
+  border: 1px solid variables.$border-yellow;
+
+  &:hover {
+    background-color: #FFEED8;
+  }
+
+  &__description-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  &__title {
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #603809;
+  }
+
+  &__description {
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #707070;
+    text-align: center;
+  }
+}
