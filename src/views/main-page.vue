@@ -7,6 +7,7 @@
   <QualityBlock />
   <CoffeeOfferBlock />
   <Feedback />
+  <SubscribeBlock />
 </template>
 <script setup lang="ts">
   import MainLayout from '@/layouts/main-layout/main-layout.vue';
@@ -16,4 +17,5 @@
   import QualityBlock from '@/components/quality-block/quality-block.vue';
 import CoffeeOfferBlock from '@/components/coffee-offer-block/coffee-offer-block.vue';
 import Feedback from '@/components/feedback/feedback.vue';
+import SubscribeBlock from '@/components/subscribe-block/subscribe-block.vue';
 </script>
