@@ -1,0 +1,7 @@
+@use "@/assets/styles/variables";
+@use "@/assets/styles/mixins";
+
+.custom-footer {
+  background: #402605 url('@/assets/images/bg-footer.png') no-repeat center center / cover;
+  padding: 162px 0 40px 0;
+}

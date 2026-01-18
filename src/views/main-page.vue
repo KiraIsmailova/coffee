@@ -8,6 +8,7 @@
   <CoffeeOfferBlock />
   <Feedback />
   <SubscribeBlock />
+  <CustomFooter />
 </template>
 <script setup lang="ts">
   import MainLayout from '@/layouts/main-layout/main-layout.vue';
@@ -18,4 +19,5 @@
 import CoffeeOfferBlock from '@/components/coffee-offer-block/coffee-offer-block.vue';
 import Feedback from '@/components/feedback/feedback.vue';
 import SubscribeBlock from '@/components/subscribe-block/subscribe-block.vue';
+import CustomFooter from '@/components/custom-footer/custom-footer.vue';
 </script>

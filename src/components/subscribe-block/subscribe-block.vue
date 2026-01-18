@@ -7,15 +7,20 @@
         <v-text-field
           :rules="rules"
           hide-details="auto"
-          label="Main input"
+          label="Enter your mail"
         />
-        <p>test</p>
+        <CustomButton>
+          <template #btnName>
+            Suscribe
+          </template>
+        </CustomButton>
       </div>
     </div>
   </div>
 </template>
 <script setup lang="ts">
-  import './subscribe-block.scss';
+  import CustomButton from '../custom-button/custom-button.vue';
+import './subscribe-block.scss';
   const rules = [
     (value: string | null) => !!value || 'Required.',
     (value: string | null) => (value && value.length >= 3) || 'Min 3 characters',

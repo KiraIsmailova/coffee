@@ -24,16 +24,27 @@
             nextEl: '.custom-swiper-button-next',
             prevEl: '.custom-swiper-button-prev'
           }"
+          @slideChange="changeIndexSlide"
         >
-          <SwiperSlide v-for="(slide, idx) in slides" :key="idx">
+          <SwiperSlide 
+            v-for="(slide, idx) in store.quotes.result" 
+            :key="idx"
+            >
             <div class="feedback__swiper-text">
-              <p class="feedback__quote">{{ slide.text }}</p>
+              <p class="feedback__quote">{{ slide.quote }}</p>
               <p class="feedback__user-name">{{ slide.userName }}</p>
               <p class="feedback__profession">{{ slide.profession }}</p>
             </div>
           </SwiperSlide>
           <Quotes class="feedback__quotes-icon"/>
         </Swiper>
+        <div class="feedback__avatar-container">
+          <img
+            v-if="store.quotes.result[currentIndex]"
+            :src="store.quotes.result[currentIndex]?.avatar"
+            alt="avatar"
+          />
+        </div>
       </div>
     </div>
     <div class="feedback__right-wave">
@@ -46,41 +57,27 @@
 </template>
 <script setup lang="ts">
   import './feedback.scss';
-  import { Swiper, SwiperSlide } from 'swiper/vue'
   import 'swiper/css';
-  import Quotes from "@/assets/svg/quotes.svg";
-  import { ref } from 'vue';
-  import type { Swiper as SwiperClass } from 'swiper';
   import 'swiper/css/navigation';
+  import { Swiper, SwiperSlide } from 'swiper/vue';
+  import type { Swiper as SwiperType } from 'swiper';
+  import Quotes from "@/assets/svg/quotes.svg";
+  import { onMounted, ref } from 'vue';
   import { Navigation } from 'swiper/modules'; 
+  import { useQuotesStore } from '@/stores/quotes-store';
 
-  const currentSlide = ref<SwiperClass | null>(null);
+  const currentIndex = ref(0);
 
-  function onSwiperInit(swiper: SwiperClass) {
-    currentSlide.value = swiper;
+  const changeIndexSlide = (swiper: SwiperType) => {
+    currentIndex.value = swiper.activeIndex;
   }
 
-  const scrollToNext = () => {
-    if (currentSlide?.value) {
-      currentSlide?.value?.slideNext();
-    }
+  const store = {
+    quotes: useQuotesStore(),
   }
 
-  const slides = [
-    { 
-      text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset',
-      userName: 'Jonny Thomas',
-      profession: 'Project Manager',
-    },
-    { 
-      text: '2 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset',
-      userName: '222',
-      profession: '212', 
-    },
-    { 
-      text: '3 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset', 
-      userName: '333',
-      profession: '313', 
-    },
-  ];
+  onMounted(() => {
+    store.quotes.fetchQuotes();
+  });
+
 </script>
