@@ -16,6 +16,12 @@
         </CustomButton>
       </div>
     </div>
+    <div class="subscribe-block__right-cup">
+      <img src="../../assets/images/footer-cup-back-right.png" alt="cup-img">
+    </div>
+    <div class="subscribe-block__left-cup">
+      <img src="../../assets/images/footer-cup-back-left.png" alt="cup-img">
+    </div>
   </div>
 </template>
 <script setup lang="ts">

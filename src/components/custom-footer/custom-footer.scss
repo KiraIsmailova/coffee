@@ -2,6 +2,72 @@
 @use "@/assets/styles/mixins";
 
 .custom-footer {
-  background: #402605 url('@/assets/images/bg-footer.png') no-repeat center center / cover;
+  background: #311900 url('@/assets/images/bg-footer.png') no-repeat center center / cover;
   padding: 162px 0 40px 0;
+  box-shadow: inset 0 0 0 1000px rgba(49, 25, 0, 0.7);
+
+  &__inner {
+    display: flex;
+    gap: 60px;
+  }
+
+  &__text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 380px;
+  }
+
+  &__title {
+    font-family: "Clicker Script", serif;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: variables.$main-white;
+  }
+
+  &__description {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0;
+    color: variables.$main-white;
+  }
+
+  &__social-list {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+  }
+
+  &__subtitle {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: variables.$main-white;
+    margin-bottom: 50px;
+  }
+
+  &__list {
+    list-style-type: none;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 42px;
+    letter-spacing: 0;
+    color: variables.$main-white;
+  }
+
+  &__about-wrap {
+    display: flex;
+    gap: 40px;
+  }
+
+  &__about {
+    min-width: 135px;
+  }
 }
