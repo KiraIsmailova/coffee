@@ -3,8 +3,12 @@
 
 .quality-card {
   background-color: variables.$background-yellow;
-  padding: 36px 40px;
+  padding: 26px 30px;
   border: 1px solid variables.$border-yellow;
+
+  @include mixins.vp-744 {
+    padding: 36px 40px;
+  }
 
   &:hover {
     background-color: #FFEED8;
@@ -29,10 +33,14 @@
     padding: 0;
     font-family: "Playfair Display", serif;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 100%;
     letter-spacing: 0;
     color: #603809;
+
+    @include mixins.vp-744 {
+      font-size: 22px;
+    }
   }
 
   &__description {
@@ -40,10 +48,14 @@
     padding: 0;
     font-family: "Playfair Display", serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 100%;
     letter-spacing: 0;
     color: #707070;
     text-align: center;
+
+    @include mixins.vp-744 {
+      font-size: 20px;
+    }
   }
 }

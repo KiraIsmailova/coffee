@@ -7,11 +7,15 @@
   position: relative;
 
   &__description {
-    padding: 18px 0;
+    padding: 14px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 8px;
+
+    @include mixins.vp-744 {
+      padding: 18px 0;
+    }
   }
 
   &__description-title {
@@ -19,34 +23,54 @@
     padding: 0;
     font-family: "Playfair Display", serif;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 100%;
     letter-spacing: 0;
     color: #603809;
+
+    @include mixins.vp-744 {
+      font-size: 22px;
+    }
   }
 
   &__description-text {
-      margin: 0;
-      padding: 0;
-      font-family: "Playfair Display", serif;
-      font-weight: 400;
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #1E1E1E;
+
+    @include mixins.vp-744 {
       font-size: 16px;
-      line-height: 100%;
-      letter-spacing: 0;
-      color: #1E1E1E;
+    }
   }
 
   &__description-price {
     font-family: "Playfair Display", serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 100%;
     letter-spacing: 0;
     color: #603809;
+
+    @include mixins.vp-744 {
+      font-size: 18px;
+    }
   }
 
   &__order {
     position: absolute;
     bottom: -10%;
+  }
+
+  &__image {
+    width: 100%;
+
+    @include mixins.vp-744 {
+      width: auto;
+    }
   }
 }

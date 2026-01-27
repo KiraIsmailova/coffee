@@ -2,8 +2,12 @@
 @use "@/assets/styles/mixins";
 
 .advantage-block {
-  padding: 82px 0 0 0;
+  padding: 40px 0 0 0;
   position: relative;
+
+  @include mixins.vp-744 {
+    padding: 82px 0 0 0;
+  }
 
   &__inner {
     display: flex;
@@ -11,7 +15,11 @@
   }
 
   &__text {
-    max-width: 585px;
+    max-width: none;
+
+    @include mixins.vp-744 {
+      max-width: 585px;
+    }
   }
 
   &__left-wave {
@@ -19,5 +27,13 @@
     top: 50%;
     left: 0;
     z-index: -1;
+  }
+
+  &__image {
+    display: none;
+
+    @include mixins.vp-744 {
+      display: block;
+    }
   }
 }    

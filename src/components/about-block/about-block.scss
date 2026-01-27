@@ -2,11 +2,21 @@
 @use "@/assets/styles/mixins";
 
 .about-block {
-  padding: 0 0 80px 0;
+  padding: 20px 0 20px 0;
+  
+  @include mixins.vp-744 {
+    padding: 0 0 80px 0;
+  }
 
   &__card-wrapper {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    gap: 20px;
+    gap: 60px;
+
+    @include mixins.vp-744 {
+      flex-direction: row;
+      gap: 20px;
+    }
   }
 }

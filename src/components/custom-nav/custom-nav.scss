@@ -9,8 +9,12 @@
 
   &__list {
     display: flex;
-    gap: 60px;
+    gap: 16px;
     align-items: center;
+
+    @include mixins.vp-1024 {
+      gap: 60px;
+    }
   }
 
   &__li {

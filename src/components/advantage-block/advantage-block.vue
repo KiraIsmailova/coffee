@@ -14,7 +14,7 @@
               </template>
             </MainLink>
         </div>
-        <div>
+        <div class="advantage-block__image">
           <img src="../../assets/images/cup-of-coffee.png" alt="cup">
         </div>
       </div>
