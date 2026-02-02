@@ -27,5 +27,9 @@
     background-position: center;
     background-size: cover;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+
+    @media (max-width: 744px) {
+      box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+    }
   }
 </style>

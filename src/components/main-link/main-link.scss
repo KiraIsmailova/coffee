@@ -4,7 +4,7 @@
 .main-link {
   font-family: "Playfair Display", serif;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 100%;
   letter-spacing: 0;
   cursor: pointer;
@@ -15,4 +15,8 @@
   color: variables.$main-black;
   display: block;
   max-width: max-content;
+
+  @include mixins.vp-744 {
+    font-size: 16px;
+  }
 }

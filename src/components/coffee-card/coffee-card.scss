@@ -63,7 +63,11 @@
 
   &__order {
     position: absolute;
-    bottom: -10%;
+    bottom: -9%;
+
+     @include mixins.vp-744 {
+      bottom: -10%;
+    }
   }
 
   &__image {

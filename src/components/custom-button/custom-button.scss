@@ -9,8 +9,12 @@
   border-bottom-right-radius: 4px;
   font-family: "Playfair Display", serif;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 100%;
   letter-spacing: 0;
   color: variables.$main-base;
+
+  @include mixins.vp-744 {
+    font-size: 22px;
+  }
 }
