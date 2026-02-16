@@ -3,13 +3,31 @@
 
 .header {
   padding: 16px 0;
+  position: relative;
+  z-index: 100;
 
   @include mixins.vp-744 {
     padding: 24px 0;
   }
 
   &__inner {
-    display: grid;
-    grid-template-columns: 1fr 2fr 0.7fr;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  &__logo {
+    flex-shrink: 0;
+    
+    img {
+      display: block;
+      max-width: 150px;
+      height: auto;
+    }
+
+    @include mixins.vp-744 {
+      max-width: 200px;
+    }
   }
 }

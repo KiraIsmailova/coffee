@@ -72,9 +72,5 @@
 
   &__image {
     width: 100%;
-
-    @include mixins.vp-744 {
-      width: auto;
-    }
   }
 }
