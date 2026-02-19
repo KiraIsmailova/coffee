@@ -30,22 +30,31 @@
   }
 
   &__left-wave {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    z-index: -1;
-
-    @include mixins.vp-744 {
-      transform: rotate(140deg);
-     top: 26%;
-      right: -15%;
-    }
+    display: none;
 
     @include mixins.vp-915 {
-      top: 50%;
+      display: block;
+      position: absolute;
+      top: 55%;
       left: 0;
-      transform: none;
+      z-index: -1;
     }
+  }
+
+    &__right-wave {
+      display: none;
+    
+      @include mixins.vp-744 {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: none;
+      }
+
+      @include mixins.vp-1024 {
+        display: none;
+      }
   }
 
   &__image {

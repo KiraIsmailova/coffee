@@ -129,9 +129,13 @@
     @include mixins.vp-744 {
       display: block;
       position: absolute;
-      top: 10%;
+      top: 13%;
       right: 0;
       transform: none;
+    }
+
+    @include mixins.vp-1024 {
+      top: 5%;
     }
   }
 
@@ -141,7 +145,7 @@
     @include mixins.vp-744 {
       display: block;
       position: absolute;
-      top: 50%;
+      top: 67%;
       left: 0;
     }
   }

@@ -22,6 +22,9 @@
     <div class="advantage-block__left-wave">
       <img src="../../assets/images/left-coffee-wave.png" alt="coffee-wave">
     </div>
+    <div class="advantage-block__right-wave">
+      <img src="../../assets/images/right-coffee-wave.png" alt="coffee-wave">
+    </div>
   </div>
 </template>
 <script setup lang="ts">

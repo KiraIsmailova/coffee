@@ -14,8 +14,14 @@
     gap: 60px;
 
     @include mixins.vp-744 {
-      gap: 50px;
+      row-gap: 50px;
+      column-gap: 35px;
       grid-template-columns: repeat(2, minmax(0, 1fr)); 
+    }
+
+    @include mixins.vp-1024 {
+      row-gap: 60px;
+      column-gap: 35px;
     }
 
     @include mixins.vp-1200 { 

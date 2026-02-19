@@ -26,10 +26,24 @@
      @include mixins.vp-744 {
       display: block;
       position: absolute;
-      top: 50%;
+      top: 80%;
       right: 0;
       z-index: 1;
-     }
+    }
+
+    @include mixins.vp-1024 {
+      top: 50%;
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+
+      @include mixins.vp-1024 {
+        width: auto;
+        height: auto;
+      }
+    }
   }
 
   &__left-cup {
@@ -38,9 +52,23 @@
     @include mixins.vp-744 {
       display: block;
       position: absolute;
-      top: 50%;
+      top: 80%;
       left: 0;
       z-index: 1;
+    }
+
+    @include mixins.vp-1024 {
+      top: 50%;
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+
+      @include mixins.vp-1024 {
+        width: auto;
+        height: auto;
+      }
     }
   }
 

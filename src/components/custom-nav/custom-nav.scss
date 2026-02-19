@@ -4,6 +4,19 @@
 .custom-nav {
   display: none;
 
+  &--burger {
+    display: block !important;
+
+    .custom-nav__list {
+      flex-direction: column;
+      gap: 25px;
+    }
+
+    .custom-nav__link {
+      font-size: 18px;
+    }
+  }
+
   @include mixins.vp-744 {
     display: flex;
     justify-content: center;
