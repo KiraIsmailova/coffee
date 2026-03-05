@@ -5,7 +5,7 @@
       <p class="main-subtitle">Explore all flavours of coffee with us. There is always a new cup worth experiencing</p>
       <div class="about-block__card-wrapper">
         <CoffeeCard
-          v-for="(card, index) in store.product.products"
+          v-for="(card, index) in (store.product.products.slice(0, 4))"
           :key="index"
           :product-data="card"
         />

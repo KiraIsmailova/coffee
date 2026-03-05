@@ -1,8 +1,9 @@
 <template>
-  <MainLayout>
-    <p>страница меню</p>
-  </MainLayout>
+  <SecondaryLayout>
+    <MenuDescription />
+  </SecondaryLayout>
 </template>
 <script setup lang="ts">
-  import MainLayout from '@/layouts/main-layout/main-layout.vue';
+  import MenuDescription from '@/components/menu-description/menu-description.vue';
+import SecondaryLayout from '@/layouts/secondary-layout/secondary-layout.vue';
 </script>

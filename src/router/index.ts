@@ -11,7 +11,7 @@ const router = createRouter({
   routes: [
     { path: '/', component: MainPage, name: 'Main', meta: { generalBackground: true }},
     { path: '/about', component: AboutPage, name: 'About' },
-    { path: '/menu', component: MenuPage, name: 'Menu' },
+    { path: '/menu', component: MenuPage, name: 'Menu', meta: { menuPage: true } },
     { path: '/contacts', component: ContactPage, name: 'Contacts' },
     { path: '/signIn', component: SignInPage, name: 'SignInPage' },
     { path: '/signUp', component: SignUpPage, name: 'SignUpPage' },
