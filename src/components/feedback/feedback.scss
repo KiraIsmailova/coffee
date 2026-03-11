@@ -1,5 +1,5 @@
-@use "@/assets/styles/variables";
-@use "@/assets/styles/mixins";
+@use '@/assets/styles/variables';
+@use '@/assets/styles/mixins';
 
 .feedback {
   padding: 40px 0;
@@ -44,7 +44,7 @@
   }
 
   &__quote {
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 30px;
@@ -62,8 +62,8 @@
       font-size: 18px;
       line-height: 36px;
       margin-bottom: 28px;
-      display: block;     
-      -webkit-line-clamp: unset;   
+      display: block;
+      -webkit-line-clamp: unset;
       -webkit-box-orient: unset;
       overflow: visible;
       text-overflow: initial;
@@ -71,7 +71,7 @@
   }
 
   &__user-name {
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 700;
     font-size: 28px;
     line-height: 100%;
@@ -87,7 +87,7 @@
   }
 
   &__profession {
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 34px;
@@ -116,7 +116,7 @@
   }
 
   &__btn-prev {
-    left: -20px; 
+    left: -20px;
   }
 
   &__btn-next {
@@ -125,7 +125,7 @@
 
   &__right-wave {
     display: none;
-    
+
     @include mixins.vp-744 {
       display: block;
       position: absolute;
@@ -155,8 +155,8 @@
     left: 31%;
 
     @include mixins.vp-744 {
-      position: absolute; 
-      top: 87%; 
+      position: absolute;
+      top: 87%;
       left: 43%;
     }
   }

@@ -8,17 +8,17 @@
 </template>
 
 <script setup lang="ts">
-import customHeader from '@/components/custom-header/custom-header.vue';
-import { computed } from 'vue';
-import { useRoute } from 'vue-router';
+  import customHeader from '@/components/custom-header/custom-header.vue';
+  import { computed } from 'vue';
+  import { useRoute } from 'vue-router';
 
-const route = useRoute();
+  const route = useRoute();
 
-const isMenuPage = computed(() => route.meta.menuPage === true);
+  const isMenuPage = computed(() => route.meta.menuPage === true);
 
-const layoutClass = computed(() => ({
-  'menu': isMenuPage.value
-}));
+  const layoutClass = computed(() => ({
+    menu: isMenuPage.value,
+  }));
 </script>
 
 <style lang="scss">

@@ -9,7 +9,7 @@
   const props = defineProps({
     route: {
       type: String,
-      required: true
-    }
-  })
+      required: true,
+    },
+  });
 </script>

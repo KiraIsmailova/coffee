@@ -21,7 +21,7 @@ export const useProductStore = defineStore('product-card-store', () => {
     } catch (err) {
       error.value = (err as Error).message;
       console.error('Ошибка загрузки данных:', err);
-    } 
+    }
   };
 
   return {

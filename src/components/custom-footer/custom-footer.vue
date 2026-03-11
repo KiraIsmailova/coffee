@@ -4,13 +4,25 @@
       <div class="custom-footer__inner">
         <div class="custom-footer__text-block">
           <h4 class="custom-footer__title">Bean Scene</h4>
-          <p class="custom-footer__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <p class="custom-footer__description">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has been the industry's standard dummy text ever since the 1500s, when an unknown
+            printer took a galley of type and scrambled it to make a type specimen book.
+          </p>
           <div>
             <ul class="custom-footer__social-list">
-              <li><a href="#"><SocialFb /></a></li>
-              <li> <a href="#"><SocialIg /></a></li>
-              <li><a href="#"><SocialYt /></a></li>
-              <li><a href="#"><SocialTw /></a></li>
+              <li>
+                <a href="#"><SocialFb /></a>
+              </li>
+              <li>
+                <a href="#"><SocialIg /></a>
+              </li>
+              <li>
+                <a href="#"><SocialYt /></a>
+              </li>
+              <li>
+                <a href="#"><SocialTw /></a>
+              </li>
             </ul>
           </div>
         </div>
@@ -43,15 +55,14 @@
             </ul>
           </div>
         </div>
-        
       </div>
     </div>
   </div>
 </template>
 <script setup lang="ts">
   import './custom-footer.scss';
-   import SocialFb from "@/assets/svg/social-fb.svg";
-   import SocialIg from "@/assets/svg/social-ig.svg";
-   import SocialYt from "@/assets/svg/social-yt.svg";
-   import SocialTw from "@/assets/svg/social-tw.svg";
+  import SocialFb from '@/assets/svg/social-fb.svg';
+  import SocialIg from '@/assets/svg/social-ig.svg';
+  import SocialYt from '@/assets/svg/social-yt.svg';
+  import SocialTw from '@/assets/svg/social-tw.svg';
 </script>

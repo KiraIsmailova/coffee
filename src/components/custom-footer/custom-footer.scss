@@ -1,5 +1,5 @@
-@use "@/assets/styles/variables";
-@use "@/assets/styles/mixins";
+@use '@/assets/styles/variables';
+@use '@/assets/styles/mixins';
 
 .custom-footer {
   background: #311900 url('@/assets/images/bg-footer.png') no-repeat center center / cover;
@@ -26,7 +26,6 @@
     flex-direction: column;
     gap: 16px;
     max-width: max-content;
-    
 
     @include mixins.vp-744 {
       gap: 20px;
@@ -35,7 +34,7 @@
   }
 
   &__title {
-    font-family: "Clicker Script", serif;
+    font-family: 'Clicker Script', serif;
     font-weight: 400;
     font-size: 54px;
     line-height: 100%;
@@ -44,7 +43,7 @@
   }
 
   &__description {
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
@@ -59,7 +58,7 @@
   }
 
   &__subtitle {
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 700;
     font-size: 24px;
     line-height: 100%;
@@ -75,7 +74,7 @@
 
   &__list {
     list-style-type: none;
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 42px;

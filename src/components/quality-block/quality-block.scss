@@ -1,5 +1,5 @@
-@use "@/assets/styles/variables";
-@use "@/assets/styles/mixins";
+@use '@/assets/styles/variables';
+@use '@/assets/styles/mixins';
 
 .quality-block {
   padding: 30px 0;
@@ -13,7 +13,7 @@
     display: none;
 
     @include mixins.vp-915 {
-      display: block; 
+      display: block;
       position: absolute;
       top: 0;
       right: 0;
@@ -23,21 +23,21 @@
 
   &__card-group {
     display: grid;
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr;
     gap: 20px;
     margin-bottom: 32px;
 
     @include mixins.vp-744 {
-      grid-template-columns: repeat(2, minmax(0, 1fr)); 
+      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    @include mixins.vp-1200 { 
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    @include mixins.vp-1200 {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
   }
 
   &__join-text {
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
@@ -52,7 +52,7 @@
   }
 
   &__join-title {
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 700;
     font-size: 24px;
     line-height: 100%;

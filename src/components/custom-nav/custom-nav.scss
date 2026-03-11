@@ -1,5 +1,5 @@
-@use "@/assets/styles/variables";
-@use "@/assets/styles/mixins";
+@use '@/assets/styles/variables';
+@use '@/assets/styles/mixins';
 
 .custom-nav {
   display: none;
@@ -31,7 +31,7 @@
     @include mixins.vp-1024 {
       gap: 30px;
     }
-    
+
     @include mixins.vp-1200 {
       gap: 60px;
     }
@@ -45,7 +45,7 @@
     text-decoration: none;
     color: variables.$main-white;
     border-bottom: 1px solid transparent;
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 100%;

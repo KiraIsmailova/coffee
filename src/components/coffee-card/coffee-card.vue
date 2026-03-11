@@ -1,7 +1,7 @@
 <template>
   <div class="product-card">
     <div class="product-card__inner">
-      <img :src="productData?.productCardImage" alt="productImage" class="product-card__image">
+      <img :src="productData?.productCardImage" alt="productImage" class="product-card__image" />
       <div class="product-card__description">
         <h4 class="product-card__description-title">
           {{ productData?.productCardTitle }}
@@ -14,9 +14,7 @@
         </p>
         <div class="product-card__order">
           <MainLink route="/menu">
-            <template #mainName>
-              Order Now
-            </template>
+            <template #mainName> Order Now </template>
           </MainLink>
         </div>
       </div>
@@ -31,5 +29,4 @@
   defineProps<{
     productData: productCard;
   }>();
-
 </script>

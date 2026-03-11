@@ -1,14 +1,14 @@
 @use '@/assets/styles/variables';
 @use '@/assets/styles/mixins';
 
-.about-block {
-  padding: 20px 0 20px 0;
+.main-menu {
+  padding: 40px 0;
 
   @include mixins.vp-744 {
-    padding: 0 0 80px 0;
+    padding: 60px 0;
   }
 
-  &__card-wrapper {
+  &__list {
     display: grid;
     grid-template-columns: 1fr;
     gap: 60px;
@@ -25,7 +25,7 @@
     }
 
     @include mixins.vp-1200 {
-      gap: 20px;
+      gap: 50px;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
   }

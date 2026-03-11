@@ -18,7 +18,7 @@ export const useQuotesStore = defineStore('quotes-store', () => {
       }
       const data = await res.json();
       result.value = data as QuotesTypes[];
-    } catch(err) {
+    } catch (err) {
       error.value = (err as Error).message;
       console.error('Ошибка загрузки данных:', err);
     }
@@ -29,4 +29,4 @@ export const useQuotesStore = defineStore('quotes-store', () => {
     error,
     fetchQuotes,
   };
-})
+});

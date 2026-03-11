@@ -1,5 +1,5 @@
-@use "@/assets/styles/variables";
-@use "@/assets/styles/mixins";
+@use '@/assets/styles/variables';
+@use '@/assets/styles/mixins';
 
 .subscribe-block {
   background-image: url('@/assets/images/coffee-offer-back.png');
@@ -23,7 +23,7 @@
   &__right-cup {
     display: none;
 
-     @include mixins.vp-744 {
+    @include mixins.vp-744 {
       display: block;
       position: absolute;
       top: 80%;
@@ -78,6 +78,6 @@
   }
 
   .v-input__control {
-    background-color: #FFF9F1;
+    background-color: #fff9f1;
   }
 }

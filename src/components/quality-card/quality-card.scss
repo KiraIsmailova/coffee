@@ -1,5 +1,5 @@
-@use "@/assets/styles/variables";
-@use "@/assets/styles/mixins";
+@use '@/assets/styles/variables';
+@use '@/assets/styles/mixins';
 
 .quality-card {
   background-color: variables.$background-yellow;
@@ -11,7 +11,7 @@
   }
 
   &:hover {
-    background-color: #FFEED8;
+    background-color: #ffeed8;
   }
 
   &__description-wrap {
@@ -31,7 +31,7 @@
   &__title {
     margin: 0;
     padding: 0;
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 100%;
@@ -46,7 +46,7 @@
   &__description {
     margin: 0;
     padding: 0;
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;

@@ -3,7 +3,6 @@
     <slot name="btnName"></slot>
   </button>
 </template>
-  <script setup lang="ts">
-    import './custom-button.scss';
-
-  </script>
+<script setup lang="ts">
+  import './custom-button.scss';
+</script>

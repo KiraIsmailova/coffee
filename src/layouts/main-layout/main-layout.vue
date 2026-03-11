@@ -17,7 +17,7 @@
   const isGeneralBack = computed(() => route.meta.generalBackground === true);
 
   const layoutClass = computed(() => ({
-    'main': isGeneralBack.value
+    main: isGeneralBack.value,
   }));
 </script>
 <style lang="scss">

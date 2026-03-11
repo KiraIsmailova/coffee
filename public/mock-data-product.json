@@ -3,120 +3,120 @@
     "productCardImage": "/images/product-card-1.png",
     "productCardTitle": "Cappuccino",
     "productCardComposition": "Coffee 50% | Milk 50%",
-    "productCardPrice": 7.50
+    "productCardPrice": 7.5
   },
   {
     "productCardImage": "/images/product-card-2.png",
     "productCardTitle": "Chai Latte",
     "productCardComposition": "Coffee 50% | Milk 50%",
-    "productCardPrice": 8.50
+    "productCardPrice": 8.5
   },
   {
     "productCardImage": "/images/product-card-3.png",
     "productCardTitle": "Macchiato",
     "productCardComposition": "Coffee 50% | Milk 50%",
-    "productCardPrice": 9.50
+    "productCardPrice": 9.5
   },
   {
     "productCardImage": "/images/product-card-4.png",
     "productCardTitle": "Expresso",
     "productCardComposition": "Coffee 50% | Milk 50%",
-    "productCardPrice": 9.50
+    "productCardPrice": 9.5
   },
   {
     "productCardImage": "/images/product-card-1.png",
     "productCardTitle": "Americano",
     "productCardComposition": "Espresso 30% | Hot Water 70%",
-    "productCardPrice": 5.50
+    "productCardPrice": 5.5
   },
   {
-    "productCardImage": "/images/product-card-1.png",
+    "productCardImage": "/images/product-card-2.png",
     "productCardTitle": "Flat White",
     "productCardComposition": "Double Espresso | Steamed Milk",
-    "productCardPrice": 6.50
+    "productCardPrice": 6.5
   },
   {
-    "productCardImage": "/images/product-card-1.png",
+    "productCardImage": "/images/product-card-3.png",
     "productCardTitle": "Mocha",
     "productCardComposition": "Espresso | Chocolate | Milk",
-    "productCardPrice": 8.00
+    "productCardPrice": 8.0
   },
   {
-    "productCardImage": "/images/product-card-1.png",
+    "productCardImage": "/images/product-card-4.png",
     "productCardTitle": "Cold Brew",
     "productCardComposition": "Cold Extracted Coffee | Ice",
-    "productCardPrice": 7.00
+    "productCardPrice": 7.0
   },
   {
     "productCardImage": "/images/product-card-1.png",
     "productCardTitle": "Latte Macchiato",
     "productCardComposition": "Steamed Milk | Espresso Shot",
-    "productCardPrice": 7.80
+    "productCardPrice": 7.8
   },
   {
-    "productCardImage": "/images/product-card-1.png",
+    "productCardImage": "/images/product-card-2.png",
     "productCardTitle": "Caramel Frappé",
     "productCardComposition": "Ice | Coffee | Caramel Syrup | Cream",
-    "productCardPrice": 9.00
+    "productCardPrice": 9.0
   },
   {
-    "productCardImage": "/images/product-card-1.png",
+    "productCardImage": "/images/product-card-3.png",
     "productCardTitle": "Vanilla Latte",
     "productCardComposition": "Espresso | Steamed Milk | Vanilla Syrup",
-    "productCardPrice": 8.20
+    "productCardPrice": 8.2
   },
   {
-    "productCardImage": "/images/product-card-1.png",
+    "productCardImage": "/images/product-card-4.png",
     "productCardTitle": "Cortado",
     "productCardComposition": "Espresso | Warm Milk (1:1)",
-    "productCardPrice": 6.00
+    "productCardPrice": 6.0
   },
   {
     "productCardImage": "/images/product-card-1.png",
     "productCardTitle": "Irish Coffee",
     "productCardComposition": "Hot Coffee | Irish Whiskey | Sugar | Cream",
-    "productCardPrice": 10.50
+    "productCardPrice": 10.5
   },
   {
-    "productCardImage": "/images/product-card-1.png",
+    "productCardImage": "/images/product-card-2.png",
     "productCardTitle": "Affogato",
     "productCardComposition": "Vanilla Ice Cream | Hot Espresso",
-    "productCardPrice": 7.50
+    "productCardPrice": 7.5
   },
   {
-    "productCardImage": "/images/product-card-1.png",
+    "productCardImage": "/images/product-card-3.png",
     "productCardTitle": "Hazelnut Latte",
     "productCardComposition": "Espresso | Milk | Hazelnut Syrup",
-    "productCardPrice": 8.30
+    "productCardPrice": 8.3
   },
   {
-    "productCardImage": "/images/product-card-1.png",
+    "productCardImage": "/images/product-card-4.png",
     "productCardTitle": "Nitro Cold Brew",
     "productCardComposition": "Cold Brew Infused with Nitrogen",
-    "productCardPrice": 8.50
+    "productCardPrice": 8.5
   },
   {
     "productCardImage": "/images/product-card-1.png",
     "productCardTitle": "Pumpkin Spice Latte",
     "productCardComposition": "Espresso | Milk | Pumpkin Spice Syrup",
-    "productCardPrice": 9.20
+    "productCardPrice": 9.2
   },
   {
-    "productCardImage": "/images/product-card-1.png",
+    "productCardImage": "/images/product-card-2.png",
     "productCardTitle": "Red Eye",
     "productCardComposition": "Drip Coffee | Single Espresso Shot",
-    "productCardPrice": 6.80
+    "productCardPrice": 6.8
   },
   {
-    "productCardImage": "/images/product-card-1.png",
+    "productCardImage": "/images/product-card-3.png",
     "productCardTitle": "White Chocolate Mocha",
     "productCardComposition": "Espresso | White Chocolate | Milk",
-    "productCardPrice": 8.80
+    "productCardPrice": 8.8
   },
   {
-    "productCardImage": "/images/product-card-1.png",
+    "productCardImage": "/images/product-card-4.png",
     "productCardTitle": "Turkish Coffee",
     "productCardComposition": "Finely Ground Coffee | Water | Sugar",
-    "productCardPrice": 5.00
+    "productCardPrice": 5.0
   }
 ]

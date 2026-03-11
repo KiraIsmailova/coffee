@@ -1,14 +1,14 @@
-@use "@/assets/styles/variables";
-@use "@/assets/styles/mixins";
+@use '@/assets/styles/variables';
+@use '@/assets/styles/mixins';
 
 .main-link {
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 100%;
   letter-spacing: 0;
   cursor: pointer;
-  background-color: #F9C06A;
+  background-color: #f9c06a;
   border-radius: 30px;
   padding: 14px 27px;
   text-decoration: none;

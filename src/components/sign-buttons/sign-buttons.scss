@@ -1,5 +1,5 @@
-@use "@/assets/styles/variables";
-@use "@/assets/styles/mixins";
+@use '@/assets/styles/variables';
+@use '@/assets/styles/mixins';
 
 .sign-buttons {
   display: none;
@@ -33,8 +33,9 @@
     }
   }
 
-  &__sign-in, &__sign-up {
-    font-family: "Playfair Display", serif;
+  &__sign-in,
+  &__sign-up {
+    font-family: 'Playfair Display', serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 100%;
@@ -44,7 +45,7 @@
   }
 
   &__sign-up {
-    background-color: #F9C06A;
+    background-color: #f9c06a;
     border-radius: 30px;
     padding: 14px 27px;
     transition: opacity 0.3s ease;
@@ -62,7 +63,7 @@
   &__sign-in .sign-buttons__sign-link {
     color: variables.$main-white;
     text-decoration: none;
-    
+
     &:hover {
       text-decoration: underline;
     }

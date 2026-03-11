@@ -1,5 +1,5 @@
-@use "@/assets/styles/variables";
-@use "@/assets/styles/mixins";
+@use '@/assets/styles/variables';
+@use '@/assets/styles/mixins';
 
 .coffee-offer-block {
   background-image: url('@/assets/images/coffee-offer-back.png');
@@ -12,7 +12,7 @@
   @include mixins.vp-744 {
     padding: 85px 0;
   }
-    
+
   &__inner {
     display: flex;
     flex-direction: column;
@@ -35,13 +35,13 @@
   }
 
   &__title {
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 700;
     font-size: 40px;
     line-height: 100%;
     letter-spacing: 0;
     color: variables.$main-white;
-    margin: 0; 
+    margin: 0;
     padding: 0;
 
     @include mixins.vp-744 {
@@ -50,7 +50,7 @@
   }
 
   &__text {
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;

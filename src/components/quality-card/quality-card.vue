@@ -1,7 +1,7 @@
 <template>
   <div class="quality-card">
     <div class="quality-card__inner">
-      <img :src="qualityCard?.qualityImage" alt="qualityImage">
+      <img :src="qualityCard?.qualityImage" alt="qualityImage" />
       <div class="quality-card__description-wrap">
         <p class="quality-card__title">
           {{ qualityCard?.qualityTitle }}

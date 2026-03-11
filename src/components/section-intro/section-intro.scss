@@ -1,5 +1,5 @@
-@use "@/assets/styles/variables";
-@use "@/assets/styles/mixins";
+@use '@/assets/styles/variables';
+@use '@/assets/styles/mixins';
 
 .section-intro {
   padding: 45px 0;
@@ -18,7 +18,7 @@
   }
 
   &__pre-title {
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 100%;
@@ -31,7 +31,7 @@
   }
 
   &__title {
-    font-family: "Clicker Script", serif;
+    font-family: 'Clicker Script', serif;
     font-weight: 400;
     font-size: 160px;
     line-height: 100%;
@@ -46,7 +46,7 @@
   }
 
   &__post-title {
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;

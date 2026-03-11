@@ -1,6 +1,6 @@
 <template>
   <MainLayout>
-  <SectionIntro />
+    <SectionIntro />
   </MainLayout>
   <AdvantageBlock />
   <AboutBlock />
@@ -16,8 +16,8 @@
   import AdvantageBlock from '@/components/advantage-block/advantage-block.vue';
   import AboutBlock from '@/components/about-block/about-block.vue';
   import QualityBlock from '@/components/quality-block/quality-block.vue';
-import CoffeeOfferBlock from '@/components/coffee-offer-block/coffee-offer-block.vue';
-import Feedback from '@/components/feedback/feedback.vue';
-import SubscribeBlock from '@/components/subscribe-block/subscribe-block.vue';
-import CustomFooter from '@/components/custom-footer/custom-footer.vue';
+  import CoffeeOfferBlock from '@/components/coffee-offer-block/coffee-offer-block.vue';
+  import Feedback from '@/components/feedback/feedback.vue';
+  import SubscribeBlock from '@/components/subscribe-block/subscribe-block.vue';
+  import CustomFooter from '@/components/custom-footer/custom-footer.vue';
 </script>
