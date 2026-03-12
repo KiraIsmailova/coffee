@@ -20,6 +20,7 @@
     main: isGeneralBack.value,
   }));
 </script>
+
 <style lang="scss">
   .main {
     background-image: url('@/assets/images/bg-image.png');

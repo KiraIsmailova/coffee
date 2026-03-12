@@ -2,7 +2,7 @@
 @use '@/assets/styles/mixins';
 
 .about-block {
-  padding: 20px 0 20px 0;
+  padding: 20px 0;
 
   @include mixins.vp-744 {
     padding: 0 0 80px 0;

@@ -5,6 +5,10 @@
       From the finest beans to your favorite cup. Taste the difference of premium quality in every
       sip. Our commitment is simple: only the highest standards for true coffee lovers
     </p>
+
+    <div class="menu-description__image">
+      <img src="/src/assets/images/footer-cup-back-left.png" alt="cup-img" />
+    </div>
   </div>
 </template>
 <script setup lang="ts">

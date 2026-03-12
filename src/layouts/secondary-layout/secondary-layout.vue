@@ -14,15 +14,26 @@
 
   const route = useRoute();
 
-  const isMenuPage = computed(() => route.meta.menuPage === true);
-
-  const layoutClass = computed(() => ({
-    menu: isMenuPage.value,
-  }));
+  const layoutClass = computed(() => {
+    const meta = route.meta;
+    return {
+      menu: !!meta.menuPage,
+      contacts: !!meta.contactsPage,
+      about: !!meta.aboutPage,
+    };
+  });
 </script>
 
 <style lang="scss">
   .menu {
     background-color: black;
+  }
+
+  .contacts {
+    background-color: #311900;
+  }
+
+  .about {
+    background-color: #653602;
   }
 </style>

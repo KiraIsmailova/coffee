@@ -1,0 +1,33 @@
+@use '@/assets/styles/variables';
+@use '@/assets/styles/mixins';
+
+.contacts-main {
+  padding: 60px 0 5px 0;
+  position: relative;
+
+  &__list-title {
+    color: variables.$main-white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0;
+    margin-bottom: 16px;
+  }
+
+  &__list-item {
+    color: variables.$main-white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0;
+    margin-bottom: 16px;
+  }
+
+  &__image {
+    position: absolute;
+    right: 0;
+    top: 50%;
+  }
+}
