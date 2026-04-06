@@ -26,14 +26,14 @@
 
 <style lang="scss">
   .menu {
-    background-color: black;
-  }
-
-  .contacts {
-    background-color: #311900;
+    background: linear-gradient(180deg, #2c2c2c 0%, #1a1a1a 100%);
   }
 
   .about {
-    background-color: #653602;
+    background: linear-gradient(180deg, #6f4e37 0%, #3e2723 50%, #1a120b 100%);
+  }
+
+  .contacts {
+    background: linear-gradient(135deg, #5c3a21 0%, #3e2000 50%, #311900 100%);
   }
 </style>

@@ -39,6 +39,9 @@
 
   &__li {
     list-style-type: none;
+    .router-link-active.router-link-exact-active {
+      color: #f9c06a;
+    }
   }
 
   &__link {

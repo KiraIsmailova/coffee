@@ -3,24 +3,24 @@
     "quote": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset",
     "userName": "Jonny Thomas",
     "profession": "Project Manager",
-    "avatar": "/images/user-avatar.png"
+    "avatar": "/images/user-avatar-1.png"
   },
   {
     "quote": "2 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset",
     "userName": "Jenny Smith",
     "profession": "Frontend Developer",
-    "avatar": "/images/user-avatar.png"
+    "avatar": "/images/user-avatar-2.png"
   },
   {
     "quote": "3 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset",
     "userName": "Anna Maria",
     "profession": "Backend Developer",
-    "avatar": "/images/user-avatar.png"
+    "avatar": "/images/user-avatar-3.png"
   },
   {
     "quote": "4 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset",
-    "userName": "Olivia Martin",
+    "userName": "Oliver Martin",
     "profession": "Designer",
-    "avatar": "/images/user-avatar.png"
+    "avatar": "/images/user-avatar-4.png"
   }
 ]

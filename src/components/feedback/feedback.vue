@@ -49,6 +49,7 @@
         </Swiper>
         <div class="feedback__avatar-container">
           <img
+            class="feedback__avatar"
             v-if="store.quotes.result[currentIndex]"
             :src="store.quotes.result[currentIndex]?.avatar"
             alt="avatar"
